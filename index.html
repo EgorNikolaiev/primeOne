@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<!-- <link rel="icon" href="imgages/favicon.ico" type="image/x-icon"> -->
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+	<div class="header__container _container">
+		<a class="header__logo" href="/">
+			<picture>
+				<source srcset="images/logo.webp" media="(max-width: 768px)">
+				<source srcset="images/logo.png" media="(max-width: 768px)">
+				<source srcset='images/header-logo.webp' type='image/webp'>
+				<img src='images/header-logo.png' alt='prime one'>
+			</picture>
+		</a>
+		<nav class="header__menu menu">
+			<button class="menu__button" type="button" aria-expanded="false" aria-controls="menu__list">
+				<span></span>
+			</button>
+
+			<ul class="menu__list" id="menu__list">
+				<li class="menu__lang">
+					<ul class="menu__lang-list">
+						<li class="menu__lang-item _active"><a href="#">en</a></li>
+						<li class="menu__lang-item"><a href="#">ru</a></li>
+						<li class="menu__lang-item"><a href="#">esp</a></li>
+					</ul>
+				</li>
+				<li class="menu__ordering"><a class="menu__link" href="#">Online ordering</a></li>
+				<li class="menu__item"><a class="menu__link" href="#">ABOUT</a></li>
+				<li class="menu__item"><a class="menu__link" href="#">Menus</a></li>
+				<li class="menu__item"><a class="menu__link" href="#">Service Info</a></li>
+				<li class="menu__item"><a class="menu__link" href="#">Gallery</a></li>
+				<li class="menu__item"><a class="menu__link" href="#">Friends</a></li>
+				<li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+		<main class="main">
+
+			<section class="private">
+				<div class="private__image">
+					<picture>
+						<source srcset='images/private.webp' type='image/webp'>
+						<img src='images/private.jpg' alt='grapes'>
+					</picture>
+				</div>
+				<div class="private__content">
+					<h2 class="private__title _title _title_white">Private catering</h2>
+					<div class="private__text _text _text_white">Treat your guests to a beautifully plated dinner, hand-crafted canapes or a casual BBQ.</div>
+					<div class="private__buttons">
+						<a href="#" class="private__button _button _button_white">Get a quote</a>
+						<a href="#" class="private__link _link">View menus</a>
+					</div>
+				</div>
+			</section>
+
+			<div class="products">
+				<div class="products__container _container">
+					<div class="products__item">
+						<a href="#" class="products__image">
+							<picture>
+								<source srcset='images/menu/01.webp' type='image/webp'>
+								<img src='images/menu/01.jpg' alt='#'>
+							</picture>
+						</a>
+						<div class="products__content">
+							<a href="#" class="products__title _title _title_h3">Corporate catering</a>
+							<p class="products__text _text">We are able to serve events from 2 to 2000 guests and always reasonable prices.</p>
+							<a href="#" class="products__button _button">Get a quote</a>
+							<a href="#" class="products__link _link">View menus</a>
+						</div>
+					</div>
+					<div class="products__item">
+						<a href="#" class="products__image">
+							<picture>
+								<source srcset='images/menu/02.webp' type='image/webp'>
+								<img src='images/menu/02.jpg' alt='#'>
+							</picture>
+						</a>
+						<div class="products__content">
+							<a href="#" class="products__title _title _title_h3">Private catering</a>
+							<p class="products__text _text">Fresh, seasonal and simple cuisine. Food is our business and our passion.</p>
+							<a href="#" class="products__button _button">Get a quote</a>
+							<a href="#" class="products__link _link">View menus</a>
+						</div>
+					</div>
+					<div class="products__item">
+						<a href="#" class="products__image">
+							<picture>
+								<source srcset='images/menu/03.webp' type='image/webp'>
+								<img src='images/menu/03.jpg' alt='#'>
+							</picture>
+						</a>
+						<div class="products__content">
+							<a href="#" class="products__title _title _title_h3">Wedding catering</a>
+							<p class="products__text _text">We use only the best organic ingredients and gluten and dairy free cooking.</p>
+							<a href="#" class="products__button _button">Get a quote</a>
+							<a href="#" class="products__link _link">View menus</a>
+						</div>
+					</div>
+					<div class="products__item">
+						<a href="#" class="products__image">
+							<picture>
+								<source srcset='images/menu/04.webp' type='image/webp'>
+								<img src='images/menu/04.jpg' alt='#'>
+							</picture>
+						</a>
+						<div class="products__content">
+							<a href="#" class="products__title _title _title_h3">Online Ordering</a>
+							<p class="products__text _text">Successful catering is about organisation, high quality service, and great food.</p>
+							<a href="#" class="products__button _button">Get a quote</a>
+							<a href="#" class="products__link _link">View menus</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<section class="choose">
+				<div class="choose__header">
+					<h2 class="choose__title _title _title_white">Why CHOOSE us?</h2>
+					<div class="choose__image">
+						<picture>
+							<source srcset='images/why_us.webp' type='image/webp'>
+							<img src='images/why_us.jpg' alt='#'>
+						</picture>
+					</div>
+				</div>
+				<div class="choose__container _container">
+					<div class="choose__item item-choose">
+						<img src="images/icons/flower.svg" alt="#" class="item-choose__icon">
+						<h3 class="item-choose__title _title _title_h3">Always fresh</h3>
+						<p class="item-choose__text _text">Fresh, seasonal and simple cuisine. Food is our business and our passion.</p>
+					</div>
+					<div class="choose__item item-choose">
+						<img src="images/icons/clock.svg" alt="#" class="item-choose__icon">
+						<h3 class="item-choose__title _title _title_h3">Reliable AND Flawless</h3>
+						<p class="item-choose__text _text">Successful catering is about organisation, high quality service, and great food.</p>
+					</div>
+					<div class="choose__item item-choose">
+						<img src="images/icons/leaf.svg" alt="#" class="item-choose__icon">
+						<h3 class="item-choose__title _title _title_h3">Clean and Healthy</h3>
+						<p class="item-choose__text _text">We use only the best organic ingredients and gluten and dairy free cooking.</p>
+					</div>
+					<div class="choose__item item-choose">
+						<img src="images/icons/appraiser.svg" alt="#" class="item-choose__icon">
+						<h3 class="item-choose__title _title _title_h3">fits any size and budget</h3>
+						<p class="item-choose__text _text">We are able to serve events from 2 to 2000 guests and always at reasonable prices.</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="contacts">
+				<div class="contacts__container _container">
+					<div class="contacts__title _title">Say hello</div>
+					<div class="contacts__links">
+						<div class="contacts__link contacts__address">45-35 #B 39th St, Sunnyside, NY 11104</div>
+						<a href="mailto:contact@primeone.com" class="contacts__link contacts__email">contact@primeone.com</a>
+						<a href="tel:7187777777" class="contacts__link contacts__telephone">(718) 777-7777</a>
+						<div class="contacts__messengers messengers">
+							<a href="#" class="messengers__link"><img src="images/icons/facebook.svg" alt="#"></a>
+							<a href="#" class="messengers__link"><img src="images/icons/twitter.svg" alt="#"></a>
+							<a href="#" class="messengers__link"><img src="images/icons/instagram.svg" alt="#"></a>
+							<a href="#" class="messengers__link"><img src="images/icons/google-plus.svg" alt="#"></a>
+						</div>
+					</div>
+				</div>
+				<div class="contacts__content">
+					<div class="contacts__map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1270.9616566350712!2d-73.92671372308439!3d40.74281358461421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25ed73a204cf7%3A0x42e7ba682f9a9e74!2zNDUtMzUgMzl0aCBTdCwgTG9uZyBJc2xhbmQgQ2l0eSwgTlkgMTExMDQsINCh0KjQkA!5e0!3m2!1sru!2sua!4v1624884187200!5m2!1sru!2sua" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+					</div>
+					<form action="#" class="contacts__form form-contacts">
+						<h3 class="form-contacts__title _title _title_white _title_h3">Get in touch</h3>
+						<input type="text" placeholder="Name" class="form-contacts__input">
+						<input type="text" placeholder="E-mail or phone number" class="form-contacts__input">
+						<textarea class="form-contacts__input form-contacts__textarea" placeholder="Your message"></textarea>
+
+						<button class="form-contacts__button _button _button_white">Send message</button>
+					</form>
+				</div>
+			</section>
+
+		</main>
+		<footer class="footer">
+	<div class="footer__container _container">
+		<div class="footer__copiright">© PrimeOne Catering 2014. Terms & Conditions</div>
+		<a href="/" class="footer__logo">
+			<picture>
+				<source srcset='images/logo.webp' type='image/webp'>
+				<img src='images/logo.png' alt='prime one'>
+			</picture>
+		</a>
+	</div>
+</footer>
+	</div>
+	<script src="js/script.min.js"></script>
+</body>
+
+</html>
